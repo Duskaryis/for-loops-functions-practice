@@ -4,7 +4,11 @@
 
 export function getFirstTenNumbers() {
 	// Your code goes here...
-	b;
+	let numbers = [];
+	for (var i = 1; i <= 10; i++) {
+		numbers.push(i);
+	}
+	return numbers;
 }
 
 // === TEST YOURSELF ===
